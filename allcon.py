@@ -1,3 +1,4 @@
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -25,3 +26,5 @@ for i in range(start, end + 1):
             print(f'Page 510{i} - Content {index}:', content.get_text(strip=True))
     else:
         print(f'Failed to retrieve page 510{i}')
+
+
